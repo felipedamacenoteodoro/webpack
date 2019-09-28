@@ -1,1 +1,3 @@
-console.log('projeto webpack')
+const outher = require('./other')
+
+console.log(`Value in other file: ${outher}`)
